@@ -17,9 +17,7 @@ Welcome to the **Mushroom Foraging Website** repository! This project is a beaut
 ## 🛠️ Tech Stack
 This project can be implemented using the following technologies:
 
-- **Frontend:** HTML, CSS, JavaScript (or a framework like React, Vue, or Angular)
-- **Backend:** Node.js, Express, or Laravel (if needed)
-- **Database:** MySQL or MongoDB (if needed for dynamic content)
+- **Frontend:** HTML, CSS, JavaScript 
 
 ## 🚀 Getting Started
 To set up the project locally, follow these steps:
