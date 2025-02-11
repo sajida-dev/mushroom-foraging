@@ -66,3 +66,129 @@ header ul li{
 .details p{
     line-height: 1.5;
 }
+
+/* Services  */
+
+.services-wrapper{
+    background-color: #2D2727;
+    padding: 100px 130px;
+    color: white;
+}
+.services-detail{
+    width: 80%;
+}
+
+.services-detail>h1{
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: 800;
+}
+.services-detail > p{
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgb(215, 209, 201);
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+.service{
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-color: #383232;
+    padding: 15px;
+    width: 32%;
+}
+
+.service > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.service>h2{
+    font-size: 29px;
+    margin: 15px 0;
+    color: #E89F6B;
+}
+.service>p{
+    line-height: 1.5;
+    color: rgb(215, 209, 201);
+    margin: 15px 0 0 15px ;
+    font-size: 14px;
+}
+.card-banner{
+    text-align: center;
+    background-color: #23402E;
+    padding: 70px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-banner>h1{
+    font-size: 42px;
+}
+.card-banner>p{
+    width: 55%;
+    line-height: 1.5;
+    margin: 10px 0;
+    font-size: 20px;
+    color: rgb(215, 209, 201);
+}
+.reference-guide-wrapper{
+    background-color: #221E1D;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px 25px;
+}
+.reference-guide-wrapper>div{
+    width: 50%;
+    padding: 20px;
+}
+.reference-guide-wrapper>div>img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.reference-guide-wrapper>div> h1{
+    font-size: 38px;
+    margin: 20px 0;
+}
+.reference-guide-wrapper>div>p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(215, 209, 201);
+    margin: 10px 0;
+}
+.reference-guide-wrapper>div>button{
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: #3E8156;
+    border: none;
+    color: white;
+    margin: 20px 0;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.connect-with-nature{
+    background-color: #2D2727;
+}
+
+footer{
+    background-color: #2A2424;
+    color: rgb(234, 239, 230);
+    text-align: center;
+    padding: 30px;
+}
+
+footer>h3{
+    margin: 20px 0;
+}
