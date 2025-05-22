@@ -32,39 +32,50 @@ header ul li{
     flex-direction: column;
     position: relative;
     text-align: center;
-    color: white;
+    /* color: white; */
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+.hero {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 10%;
+    color: white;
 }
 .hero-wrapper img{
     width: 100%;
     height: 90%;
+    object-fit: cover;
+    /* max-height: 700px; */
 }
 .hero-wrapper h1{
-    font-size: 90px;
+    font-size: 7.3vw;
     color: #F69C58;
     font-weight: 800;
 
 }
 .hero-wrapper h2{
-    font-size: 65px;
+    font-size: 5.5vw;
     font-weight: 700;
 
 }
 .hero{
     position: absolute;
-    left: 120px;
-    right: 120px;
+    
 }
 
 .details{
-    padding: 0 200px;
-    font-size: 17px;
+    /* padding: 0 200px; */
+    margin-top: 20px;
+    font-size: 1.1rem;
     color: rgb(228, 225, 220);
 }
 .details p{
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 /* Services  */
@@ -191,4 +202,179 @@ footer{
 
 footer>h3{
     margin: 20px 0;
+}
+
+
+
+
+/* media queries */
+
+/* Responsive Layout Adjustments */
+@media screen and (max-width: 1200px) {
+    /* .hero h1 {
+        font-size: 3.5vw;
+    }
+    .hero h2{
+        font-size: 4.5vw;
+    }
+     .hero-wrapper{
+        height: 150.5vw;
+     }
+
+        .hero-wrapper img{
+            object-fit: fill;
+            min-height: 120.5vw;
+        } */
+    .details {
+        padding: 0 100px;
+    }
+
+    .services {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .reference-guide-wrapper {
+        flex-direction: column;
+    }
+
+    .reference-guide-wrapper>div {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .card-banner>p {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 20px;
+    }
+
+    header .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .menu ul li {
+        margin: 10px 0;
+    }
+
+    .hero-wrapper{
+        height: 55vw;
+    }
+    .hero-wrapper h1 {
+        font-size: 7vw;
+    }
+
+    .hero-wrapper h2 {
+        font-size: 3vw;
+    }
+
+    .hero-wrapper img {
+       object-fit: fill;
+       min-height: 55vw;
+    }
+
+    .details {
+        padding: 0 30px;
+        font-size: 1rem;
+    }
+
+    .services-wrapper {
+        padding: 50px 20px;
+    }
+
+    .services-detail>h1 {
+        font-size: 30px;
+    }
+
+    .services-detail>p {
+        font-size: 18px;
+    }
+
+    .card-banner {
+        padding: 40px 20px;
+    }
+
+    .card-banner>h1 {
+        font-size: 30px;
+    }
+
+    .card-banner>p {
+        font-size: 18px;
+    }
+
+    .reference-guide-wrapper>div>h1 {
+        font-size: 30px;
+    }
+
+    .reference-guide-wrapper>div>p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero-wrapper h1 {
+        font-size: 14vw;
+    }
+
+    .hero-wrapper h2 {
+        font-size: 6vw;
+        margin-top: 1.5rem;
+    }
+
+    .hero-wrapper {
+        height: 220vw;
+    }
+    .hero-wrapper img{
+        object-fit: cover;
+        min-height: 220vw;
+    }
+
+    .hero-wrapper p {
+       font-size: 5vw;
+    }
+
+    .details {
+        padding: 0 20px;
+        font-size: 0.9rem;
+    }
+
+    .card-banner>p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .reference-guide-wrapper>div>h1,
+    .connect-with-nature>div>h1 {
+        font-size: 26px;
+    }
+
+    .reference-guide-wrapper>div>p,
+    .connect-with-nature>div>p {
+        font-size: 14px;
+    }
+
+    .reference-guide-wrapper>div>button,
+    .connect-with-nature>div>button {
+        font-size: 15px;
+        padding: 8px 16px;
+    }
+
+    footer {
+        padding: 20px 10px;
+    }
+
+    footer>h3 {
+        font-size: 18px;
+    }
 }
